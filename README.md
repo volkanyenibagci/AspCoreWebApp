@@ -8,7 +8,7 @@ Theme : adminlte
 
 * LINQ ile sorgulama,
 * Katmanlı mimari kullanımı ,
-* WebAPI SWAGGER
+* WebAPI SWAGGER -- https://localhost:5001/Departman Sample Get Request
 * Code First with EFCORE
 * FrontEnd tarafında herhangi bir framework kullanılmamıştır. Mvc Grid, Kendo, Telerik kullanılabilir.
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 18" src="https://user-images.githubusercontent.com/22456678/139594433-94811a07-1c12-4916-bfb5-fd392abd1607.png">
