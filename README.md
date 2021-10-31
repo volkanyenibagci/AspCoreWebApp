@@ -4,7 +4,7 @@ Asp Core Web Application
 Using Materials
 
 IDE : Jetbrains Rider
-
+Theeme : adminlte
 
 *LINQ ile sorgulama,
 * Katmanlı mimari kullanımı ,
