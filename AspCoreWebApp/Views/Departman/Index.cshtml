@@ -1,0 +1,82 @@
+﻿@using AspCoreWebApp.Entities.Models
+@model List<Departman>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_KategoriLayout.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content-->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Departman Volkan</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="~/Home/Index">Anasayfa</a></li>
+                        <li class="breadcrumb-item active">Kkontrol Paneli</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--  /.container-fluid-->
+    </section>
+    <!--  Main content-->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="col-2">
+                                @*<button class="btn btn-block btn-primary">Yeni Kayıt</button>*@
+                                <a href="~/Departman/DepartmanEkle" class="btn btn-block btn-primary">Departman Ekle</a>
+                            </div>
+                        </div>
+                        <!--  /.card-header-->
+                        <a href="~/App_Data/"></a>
+                        <div class="card-body">
+                            <table class="table table-bordered" style="margin-top: 20px">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Departman Adı</th>
+                                    <th>Durum</th>
+                                    <th>Sil</th>
+                                    <th>Güncelle</th>
+                                    
+                                </tr>
+                                @foreach (var item in Model)
+                                           {
+                                               <tr>
+                                                       <td>
+                                                           @Html.DisplayFor(modelItem => item.DepartmanID)
+                                                       </td>
+                                                       <td>
+                                                           @item.DepartmanAd
+                                                       </td>
+                                                   <td>
+                                                       @item.Durum
+                                                   </td>
+                                                   <td><a href="/Departman/DepartmanSil/@item.DepartmanID" class="btn btn-danger">Sil</a></td>
+                                                    <td><a href="/Departman/DepartmanGetir/@item.DepartmanID" class="btn btn-success">Güncelle</a></td>
+                                                    
+                                               </tr>
+                                           }
+                                           </table>
+                        </div>
+
+                        <!--   /.card-body-->
+                    </div>
+                    <!--  /.card-->
+                </div>
+                <!--  /.col-->
+            </div>
+            <!--  /.row-->
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>

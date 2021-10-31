@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/volkan/.dotnet/store/|arch|/|tfm|",
+      "/Users/volkan/.nuget/packages"
+    ]
+  }
+}

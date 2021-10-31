@@ -1,0 +1,71 @@
+@model System.Collections.Generic.List<AspCoreWebApp.Entities.Models.Personel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Departman Detay</h1>
+                </div>
+
+                <ol class="breadcrumb mb-4">
+                    <li class="breadcrumb-item active">@ViewBag.DepartmanAdi</li>
+                </ol>
+
+                @*<div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+                        <li class="breadcrumb-item active">Kategoriler</li>
+                    </ol>
+                </div>*@
+            </div>
+        </div>
+        <!--  /.container-fluid-->
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+
+
+                        <div class="card-body">
+                            @(Html
+        .Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => model.PersonelID).Titled("Personel Id");
+            columns.Add(model => model.PersonelAd).Titled("Personel Adı");
+            columns.Add(model => model.PersonelSoyad).Titled("Personel Soyadı");
+            columns.Add(model => "<a class=\"btn btn-block btn-danger\"  href="+ "https://localhost:44348/Departman/" + "DepartmanPersonelSatis/" + model.PersonelID + ">Personel Satış</a>").Encoded(false);
+            //columns.Add(model => "<a class=\"btn btn-block btn-success\"  href=DepartmanGetir/" + model.DepartmanID + ">Düzenle</a>").Encoded(false);
+            //columns.Add(model => "<a class=\"btn btn-block btn-info\"  href=DepartmanDetay/" + model.DepartmanID + ">Detay</a>").Encoded(false);
+
+        })
+        .Empty("Kayıt bulunamadı")
+        .Filterable()
+        .Sortable()
+        .Pageable()
+    )
+
+                        </div>
+
+                        <!--   /.card-body-->
+                    </div>
+                    <!--  /.card-->
+                </div>
+                <!--  /.col-->
+            </div>
+            <!--  /.row-->
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+
+
+
+</div>

@@ -1,0 +1,15 @@
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/AspCoreWebApp.Entities.deps.json
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/AspCoreWebApp.Entities.runtimeconfig.json
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/AspCoreWebApp.Entities.runtimeconfig.dev.json
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/AspCoreWebApp.Entities.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/ref/AspCoreWebApp.Entities.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/bin/Debug/net5.0/AspCoreWebApp.Entities.pdb
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.csproj.AssemblyReference.cache
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.AssemblyInfoInputs.cache
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.AssemblyInfo.cs
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.csproj.CoreCompileInputs.cache
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/ref/AspCoreWebApp.Entities.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.pdb
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/obj/Debug/net5.0/AspCoreWebApp.Entities.genruntimeconfig.cache

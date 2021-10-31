@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp", "AspCoreWebApp\AspCoreWebApp.csproj", "{FA1E0BE3-D1EE-4ACE-BC60-91E3E8594039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp.Entities", "AspCoreWebApp.Entities\AspCoreWebApp.Entities.csproj", "{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1E0BE3-D1EE-4ACE-BC60-91E3E8594039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1E0BE3-D1EE-4ACE-BC60-91E3E8594039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1E0BE3-D1EE-4ACE-BC60-91E3E8594039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1E0BE3-D1EE-4ACE-BC60-91E3E8594039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
