@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fudoqgGc7ZzBfaMdBwJiCWJlhs6qVQSij3Uy9IauUIKOrXrzeAwotsRGBN8O8T+xEkqw6bb6qmLh/etb2bCWBQ==",
+  "dgSpecHash": "yPP/+5894RIPV8HmpkRq/4hc9a/qf8GZ7KylUY2aMsjTS5H0TSMW2bthUGs1+0nSzWAtvPT6fuNEE5tOjHm/Mw==",
   "success": true,
   "projectFilePath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/AspCoreWebApp.csproj",
   "expectedPackageFiles": [
     "/Users/volkan/.nuget/packages/bootstrap/5.1.2/bootstrap.5.1.2.nupkg.sha512",
     "/Users/volkan/.nuget/packages/cldrjs/0.4.4/cldrjs.0.4.4.nupkg.sha512",
     "/Users/volkan/.nuget/packages/devexpress.data/21.2.2-pre-21250/devexpress.data.21.2.2-pre-21250.nupkg.sha512",
+    "/Users/volkan/.nuget/packages/devextreme.aspnet.data/2.8.6/devextreme.aspnet.data.2.8.6.nupkg.sha512",
     "/Users/volkan/.nuget/packages/devextreme.web/21.2.2-beta/devextreme.web.21.2.2-beta.nupkg.sha512",
     "/Users/volkan/.nuget/packages/gridcore/5.0.0-preview-1/gridcore.5.0.0-preview-1.nupkg.sha512",
     "/Users/volkan/.nuget/packages/gridmvccore/5.0.0-preview-2/gridmvccore.5.0.0-preview-2.nupkg.sha512",

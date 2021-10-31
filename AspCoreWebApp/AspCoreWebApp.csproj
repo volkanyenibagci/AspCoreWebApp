@@ -7,6 +7,7 @@
     <ItemGroup>
       <PackageReference Include="bootstrap" Version="5.1.2" />
       <PackageReference Include="DevExpress.Data" Version="21.2.2-pre-21250" />
+      <PackageReference Include="DevExtreme.AspNet.Data" Version="2.8.6" />
       <PackageReference Include="DevExtreme.Web" Version="21.2.2-beta" />
       <PackageReference Include="GridMvcCore" Version="5.0.0-preview-2" />
       <PackageReference Include="jQuery" Version="3.6.0" />

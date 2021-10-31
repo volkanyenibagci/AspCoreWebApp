@@ -250,6 +250,19 @@
           "lib/netstandard2.0/DevExpress.Data.v21.2.dll": {}
         }
       },
+      "DevExtreme.AspNet.Data/2.8.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Data.dll": {}
+        }
+      },
       "DevExtreme.Web/21.2.2-beta": {
         "type": "package",
         "dependencies": {
@@ -3537,6 +3550,21 @@
         "lib/net452/DevExpress.Data.v21.2.xml",
         "lib/netstandard2.0/DevExpress.Data.v21.2.dll",
         "lib/netstandard2.0/DevExpress.Data.v21.2.xml"
+      ]
+    },
+    "DevExtreme.AspNet.Data/2.8.6": {
+      "sha512": "i1yihftbQALysX/Sh5rm4XFVRKPXKwHcmfH8esD0fTH+RTPGpMmIUoYOg2oAAOxqJsi/F5IQ8Gkp60lDzOigRA==",
+      "type": "package",
+      "path": "devextreme.aspnet.data/2.8.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devextreme.aspnet.data.2.8.6.nupkg.sha512",
+        "devextreme.aspnet.data.nuspec",
+        "lib/net452/DevExtreme.AspNet.Data.dll",
+        "lib/net452/DevExtreme.AspNet.Data.xml",
+        "lib/netstandard2.0/DevExtreme.AspNet.Data.dll",
+        "lib/netstandard2.0/DevExtreme.AspNet.Data.xml"
       ]
     },
     "DevExtreme.Web/21.2.2-beta": {
@@ -9996,6 +10024,7 @@
       "AspCoreWebApp.Business >= 1.0.0",
       "AspCoreWebApp.Entities >= 1.0.0",
       "DevExpress.Data >= 21.2.2-pre-21250",
+      "DevExtreme.AspNet.Data >= 2.8.6",
       "DevExtreme.Web >= 21.2.2-beta",
       "GridMvcCore >= 5.0.0-preview-2",
       "MVCGrid.Net >= 1.0.0.61",
@@ -10059,6 +10088,10 @@
           "DevExpress.Data": {
             "target": "Package",
             "version": "[21.2.2-pre-21250, )"
+          },
+          "DevExtreme.AspNet.Data": {
+            "target": "Package",
+            "version": "[2.8.6, )"
           },
           "DevExtreme.Web": {
             "target": "Package",

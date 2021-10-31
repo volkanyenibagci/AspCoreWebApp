@@ -115,3 +115,7 @@
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.DataAccess.dll
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.Business.pdb
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.DataAccess.pdb
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Home/Kategori.cshtml.g.cs
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Home/KategoriEkle.cshtml.g.cs
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Home/KategoriGetir.cshtml.g.cs
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/DevExtreme.AspNet.Data.dll
