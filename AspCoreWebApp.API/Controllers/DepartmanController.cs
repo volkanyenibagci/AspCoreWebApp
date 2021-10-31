@@ -12,10 +12,7 @@ namespace AspCoreWebApp.API.Controllers
     [Route("[controller]")]
     public class DepartmanController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+      
 
         private readonly ILogger<DepartmanController> _logger;
         private readonly AspCoreContext _context;
@@ -27,9 +24,9 @@ namespace AspCoreWebApp.API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Departman> Get()
+        public List<Departman> Get()
         {
-            var deneme = _context.Departmans.ToArray();
+            var deneme = _context.Departmans.ToList();
 
 
             return deneme;

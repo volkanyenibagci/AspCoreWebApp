@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspCoreWebApp.Entities.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,6 +33,13 @@ namespace AspCoreWebApp.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "AspCoreWebApp.API", Version = "v1"});
             });
+            
+            services.AddDbContext<AspCoreContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            //Geliştirme ortamında yararlı hata bilgileri sağlar
+            services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddControllersWithViews();
+            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
