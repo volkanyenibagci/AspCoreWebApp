@@ -4,6 +4,8 @@ Asp Core Web Application
 Using Materials
 
 IDE : Jetbrains Rider
+Tech : Asp.Net Core
+Database : Postgresql
 Theme : adminlte
 
 * LINQ ile sorgulama,
