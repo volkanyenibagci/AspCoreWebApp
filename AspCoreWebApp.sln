@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp", "AspCoreWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp.Entities", "AspCoreWebApp.Entities\AspCoreWebApp.Entities.csproj", "{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp.DataAccess", "AspCoreWebApp.DataAccess\AspCoreWebApp.DataAccess.csproj", "{E9EF7AC9-8825-4833-93AD-0F3D1C41E95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp.Business", "AspCoreWebApp.Business\AspCoreWebApp.Business.csproj", "{746D35B9-F45E-4DC6-AB21-B07E6340C33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreWebApp.API", "AspCoreWebApp.API\AspCoreWebApp.API.csproj", "{EAE1B9F5-7F2A-42B8-856B-E5E90E1468A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92F1A54-7C09-40B9-AAF6-342AC2667B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EF7AC9-8825-4833-93AD-0F3D1C41E95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EF7AC9-8825-4833-93AD-0F3D1C41E95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EF7AC9-8825-4833-93AD-0F3D1C41E95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EF7AC9-8825-4833-93AD-0F3D1C41E95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746D35B9-F45E-4DC6-AB21-B07E6340C33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746D35B9-F45E-4DC6-AB21-B07E6340C33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746D35B9-F45E-4DC6-AB21-B07E6340C33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746D35B9-F45E-4DC6-AB21-B07E6340C33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE1B9F5-7F2A-42B8-856B-E5E90E1468A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE1B9F5-7F2A-42B8-856B-E5E90E1468A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE1B9F5-7F2A-42B8-856B-E5E90E1468A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE1B9F5-7F2A-42B8-856B-E5E90E1468A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

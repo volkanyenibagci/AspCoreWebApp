@@ -1,8 +1,12 @@
 
+using AspCoreWebApp.Business.Abstract;
+using AspCoreWebApp.Business.Concrete;
+using AspCoreWebApp.DataAccess.Abstract;
+using AspCoreWebApp.DataAccess.Concrete;
 using AspCoreWebApp.Entities.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,7 +33,8 @@ namespace AspCoreWebApp
             //Geliştirme ortamında yararlı hata bilgileri sağlar
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllersWithViews();
-           
+            services.AddHttpContextAccessor();
+            
 
         }
 

@@ -111,3 +111,7 @@
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Departman/DepartmanDetay.cshtml.g.cs
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Departman/DepartmanGetir.cshtml.g.cs
 /Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/obj/Debug/net5.0/Razor/Views/Shared/_AdminLayout.cshtml.g.cs
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.Business.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.DataAccess.dll
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.Business.pdb
+/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/bin/Debug/net5.0/AspCoreWebApp.DataAccess.pdb

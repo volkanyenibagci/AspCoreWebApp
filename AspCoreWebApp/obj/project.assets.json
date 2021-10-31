@@ -3348,6 +3348,43 @@
           "lib/net40/WebActivatorEx.dll": {}
         }
       },
+      "AspCoreWebApp.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AspCoreWebApp.DataAccess": "1.0.0",
+          "AspCoreWebApp.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AspCoreWebApp.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspCoreWebApp.Business.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "AspCoreWebApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AspCoreWebApp.Entities": "1.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Tools.DotNet": "2.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "2.0.0-preview1"
+        },
+        "compile": {
+          "bin/placeholder/AspCoreWebApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspCoreWebApp.DataAccess.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "AspCoreWebApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -9938,6 +9975,16 @@
         "webactivatorex.nuspec"
       ]
     },
+    "AspCoreWebApp.Business/1.0.0": {
+      "type": "project",
+      "path": "../AspCoreWebApp.Business/AspCoreWebApp.Business.csproj",
+      "msbuildProject": "../AspCoreWebApp.Business/AspCoreWebApp.Business.csproj"
+    },
+    "AspCoreWebApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj",
+      "msbuildProject": "../AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj"
+    },
     "AspCoreWebApp.Entities/1.0.0": {
       "type": "project",
       "path": "../AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj",
@@ -9946,6 +9993,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AspCoreWebApp.Business >= 1.0.0",
       "AspCoreWebApp.Entities >= 1.0.0",
       "DevExpress.Data >= 21.2.2-pre-21250",
       "DevExtreme.Web >= 21.2.2-beta",
@@ -9989,6 +10037,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj": {
+              "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj"
+            },
             "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj": {
               "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj"
             }

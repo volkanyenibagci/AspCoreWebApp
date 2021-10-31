@@ -1,7 +1,11 @@
 using System.Linq;
+using AspCoreWebApp.Business.Abstract;
+using AspCoreWebApp.DataAccess.Abstract;
+using AspCoreWebApp.DataAccess.Concrete;
 using AspCoreWebApp.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace AspCoreWebApp.Controllers
 {
@@ -11,13 +15,19 @@ namespace AspCoreWebApp.Controllers
         // GET
         private readonly AspCoreContext _context;
         
+        private readonly IDepartmanService _departmanService;
+        
         public DepartmanController(AspCoreContext context)
         {
+
             _context = context;
         }
+        
+        
         public IActionResult Index()
         {
             var degerler = _context.Departmans.Where(x=>x.Durum==true).ToList();
+            /*var degerler = _departmanService.GetAllDepartmans().ToList();*/
             return View(degerler);
         }
         

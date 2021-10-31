@@ -4,6 +4,157 @@
     "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp/AspCoreWebApp.csproj": {}
   },
   "projects": {
+    "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj",
+        "projectName": "AspCoreWebApp.Business",
+        "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj",
+        "packagesPath": "/Users/volkan/.nuget/packages/",
+        "outputPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/volkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj": {
+                "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj"
+              },
+              "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj": {
+                "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj",
+        "projectName": "AspCoreWebApp.DataAccess",
+        "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/AspCoreWebApp.DataAccess.csproj",
+        "packagesPath": "/Users/volkan/.nuget/packages/",
+        "outputPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/volkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj": {
+                "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -115,6 +266,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj": {
+                "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Business/AspCoreWebApp.Business.csproj"
+              },
               "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj": {
                 "projectPath": "/Users/volkan/RiderProjects/AspCoreWebApp/AspCoreWebApp.Entities/AspCoreWebApp.Entities.csproj"
               }

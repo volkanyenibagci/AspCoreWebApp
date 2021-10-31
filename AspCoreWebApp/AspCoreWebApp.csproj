@@ -29,6 +29,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AspCoreWebApp.Business\AspCoreWebApp.Business.csproj" />
       <ProjectReference Include="..\AspCoreWebApp.Entities\AspCoreWebApp.Entities.csproj" />
     </ItemGroup>
 

@@ -9,8 +9,8 @@ namespace AspCoreWebApp.Entities.Models
         public AspCoreContext(DbContextOptions<AspCoreContext> options) : base(options)
         {
         }
-
         
+
 
         /*public AspCoreContext()
         {
