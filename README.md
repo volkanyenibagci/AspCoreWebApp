@@ -6,7 +6,7 @@ Using Materials
 IDE : Jetbrains Rider
 Theme : adminlte
 
-*LINQ ile sorgulama,
+* LINQ ile sorgulama,
 * Katmanlı mimari kullanımı ,
 * WebAPI SWAGGER
 * Code First with EFCORE
