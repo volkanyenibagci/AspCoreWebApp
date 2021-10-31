@@ -4,6 +4,8 @@ Asp Core Web Application
 Using Materials
 
 IDE : Jetbrains Rider
+Tech : Asp.Net Core
+Database : Postgresql
 Theme : adminlte
 
 * LINQ ile sorgulama,
@@ -17,3 +19,4 @@ Theme : adminlte
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 54" src="https://user-images.githubusercontent.com/22456678/139594473-8ae7543b-1317-4ff1-8a98-1d837689975f.png">
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 06 35" src="https://user-images.githubusercontent.com/22456678/139594476-add58f4d-c72d-445f-8b07-6adb17cbffb0.png">
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 06 49" src="https://user-images.githubusercontent.com/22456678/139594479-faee6015-61c9-4a86-a955-9f1f8e860d3c.png">
+<img width="1437" alt="Screen Shot 2021-11-01 at 00 49 52" src="https://user-images.githubusercontent.com/22456678/139602338-4659106c-355b-4a71-8f2a-afda4584a218.png">
