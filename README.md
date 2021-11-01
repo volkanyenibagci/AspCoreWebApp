@@ -9,9 +9,20 @@ Database : Postgresql
 Theme : adminlte
 
 * LINQ ile sorgulama,
+
 * Katmanlı mimari kullanımı ,
+
 * WebAPI SWAGGER -- https://localhost:5001/Departman Sample Get Request
+
 * Code First with EFCORE
+After clone the project;
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet ef (Test)
+dotnet ef migrations add initial
+dotnet ef database update
+
 * FrontEnd tarafında herhangi bir framework kullanılmamıştır. Mvc Grid, Kendo, Telerik kullanılabilir.
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 18" src="https://user-images.githubusercontent.com/22456678/139594433-94811a07-1c12-4916-bfb5-fd392abd1607.png">
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 30" src="https://user-images.githubusercontent.com/22456678/139594466-d3d9deeb-9ccf-4010-8b17-77834675063c.png">
