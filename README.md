@@ -36,6 +36,8 @@ modelBuilder.Query<insert_data(DepartmanAdi)>();
 ## * WebAPI SWAGGER -- https://localhost:5001/Departman Sample Get Request 
 
 ## * Code First with EFCORE , 
+You can migrate of datase with Code First with EFCore.
+Basic CLI commands for using EFCore is down below.
 ```
 After clone the project;
 dotnet tool install --global dotnet-ef
