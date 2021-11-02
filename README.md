@@ -11,6 +11,11 @@ Asp Core Web Application
 ## * Querying with LINQ,
 
 ## * Use of layered architecture,
+- AspCoreWebApp
+- AspCoreWebApp.Entities
+- AspCoreWebApp.DataAccess
+- AspCoreWebApp.Business
+- AspCoreWebApp.API
 
 ## * Using Stored Procedures,
 Database Side
