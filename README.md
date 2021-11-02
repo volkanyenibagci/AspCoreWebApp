@@ -1,12 +1,12 @@
 # AspCoreWebApp
 Asp Core Web Application
 
-# Using Materials
+# Materials Used
 
-IDE : Jetbrains Rider
-Tech : Asp.Net Core
-Database : Postgresql
-Theme : adminlte
+- IDE : Jetbrains Rider on Macos(Can be use Visual Studio or other stuffs)
+- Tech : Asp.Net Core
+- Database : Postgresql
+- Theme : adminlte (https://adminlte.io/)
 
 ## * LINQ ile sorgulama,
 
