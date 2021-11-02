@@ -13,7 +13,7 @@ Theme : adminlte
 ## * Katmanlı mimari kullanımı ,
 
 ## * Stored Procedure Kullanımı ,
-
+Database Side
 ```
 CREATE OR REPLACE PROCEDURE insert_data(DepartmanAdi varchar(50))
 
@@ -27,7 +27,11 @@ end;
 $$
 ;
 ```
-
+Core Application Side
+```
+string DepartmanAdi="Yeni Departman";
+modelBuilder.Query<insert_data(DepartmanAdi)>();  
+```
 
 ## * WebAPI SWAGGER -- https://localhost:5001/Departman Sample Get Request 
 
