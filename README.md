@@ -23,7 +23,7 @@ dotnet ef (Test)
 dotnet ef migrations add initial
 dotnet ef database update
 
-* FrontEnd tarafında herhangi bir framework kullanılmamıştır. Mvc Grid, Kendo, Telerik kullanılabilir.
+* FrontEnd tarafında herhangi bir framework kullanılmamıştır. Devexpress, Mvc Grid, Kendo, Telerik kullanılabilir.
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 18" src="https://user-images.githubusercontent.com/22456678/139594433-94811a07-1c12-4916-bfb5-fd392abd1607.png">
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 30" src="https://user-images.githubusercontent.com/22456678/139594466-d3d9deeb-9ccf-4010-8b17-77834675063c.png">
 <img width="1437" alt="Screen Shot 2021-10-31 at 20 05 42" src="https://user-images.githubusercontent.com/22456678/139594472-91c6b193-eb61-497b-a6a4-d245474268c4.png">
