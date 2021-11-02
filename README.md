@@ -8,11 +8,11 @@ Asp Core Web Application
 - Database : Postgresql
 - Theme : adminlte (https://adminlte.io/)
 
-## * LINQ ile sorgulama,
+## * Querying with LINQ,
 
-## * Katmanlı mimari kullanımı ,
+## * Use of layered architecture,
 
-## * Stored Procedure Kullanımı ,
+## * Using Stored Procedures,
 Database Side
 ```
 CREATE OR REPLACE PROCEDURE insert_data(DepartmanAdi varchar(50))
