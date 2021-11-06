@@ -10,6 +10,8 @@ Asp Core Web Application
 
 ## * Querying with LINQ,
 
+## * Repository Pattern and Dependency Enjection,
+
 ## * Use of layered architecture,
 - AspCoreWebApp
 - AspCoreWebApp.Entities
