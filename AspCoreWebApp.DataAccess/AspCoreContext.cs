@@ -30,6 +30,17 @@ namespace AspCoreWebApp.DataAccess
         public DbSet<Personel> Personels { get; set; }
         public DbSet<SatisHareket> SatisHarekets { get; set; }
         public DbSet<Urun> Uruns { get; set; }
+        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Cariler>().ToTable("Carilers");
+            modelBuilder.Entity<Departman>().ToTable("Departman");
+            modelBuilder.Entity<Kategori>().ToTable("Kategori");
+            modelBuilder.Entity<Personel>().ToTable("Personel");
+            modelBuilder.Entity<SatisHareket>().ToTable("SatisHareket");
+            modelBuilder.Entity<Urun>().ToTable("Urun");
+        }
+
 
         /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

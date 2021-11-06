@@ -34,7 +34,9 @@ namespace AspCoreWebApp
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllersWithViews();
             services.AddHttpContextAccessor();
-            
+            services.AddSingleton<IDepartmanRepository, DepartmanRepository>();
+            services.AddSingleton<IDepartmanService, DepartmanManager>();
+
 
         }
 

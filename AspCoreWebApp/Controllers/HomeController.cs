@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using AspCoreWebApp.Business.Abstract;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AspCoreWebApp.Models;
@@ -19,11 +20,13 @@ namespace AspCoreWebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly AspCoreContext _context;
+        
        
         public HomeController(ILogger<HomeController> logger,AspCoreContext context)
         {
             _logger = logger;
             _context = context;
+            
         }
 
         public IActionResult Index()

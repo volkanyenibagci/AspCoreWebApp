@@ -14,13 +14,16 @@ namespace AspCoreWebApp.Controllers
     {
         // GET
         private readonly AspCoreContext _context;
-        
-        private readonly IDepartmanService _departmanService;
-        
-        public DepartmanController(AspCoreContext context)
-        {
 
+        private readonly IDepartmanRepository _departmanRepository;
+
+        private readonly IDepartmanService _departmanService;
+
+        public DepartmanController(AspCoreContext context,IDepartmanRepository departmanRepository,IDepartmanService departmanService)
+        {
             _context = context;
+            _departmanRepository = departmanRepository;
+            _departmanService = departmanService;
         }
         
         
@@ -28,6 +31,8 @@ namespace AspCoreWebApp.Controllers
         {
             var degerler = _context.Departmans.Where(x=>x.Durum==true).ToList();
             /*var degerler = _departmanService.GetAllDepartmans().ToList();*/
+            var degerler2 = _departmanRepository.GetAllDepartmans();
+            var degerler3 = _departmanService.GetAllDepartmans();
             return View(degerler);
         }
         
