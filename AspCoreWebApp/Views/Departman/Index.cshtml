@@ -52,16 +52,16 @@
                                            {
                                                <tr>
                                                        <td>
-                                                           @Html.DisplayFor(modelItem => item.DepartmanID)
+                                                           @Html.DisplayFor(modelItem => item.Id)
                                                        </td>
                                                        <td>
                                                            @item.DepartmanAd
                                                        </td>
                                                    <td>
-                                                       @item.Durum
+                                                       @item.Status
                                                    </td>
-                                                   <td><a href="/Departman/DepartmanSil/@item.DepartmanID" class="btn btn-danger">Sil</a></td>
-                                                    <td><a href="/Departman/DepartmanGetir/@item.DepartmanID" class="btn btn-success">Güncelle</a></td>
+                                                   <td><a href="/Departman/DepartmanSil/@item.Id" class="btn btn-danger">Sil</a></td>
+                                                    <td><a href="/Departman/DepartmanGetir/@item.Id" class="btn btn-success">Güncelle</a></td>
                                                     
                                                </tr>
                                            }

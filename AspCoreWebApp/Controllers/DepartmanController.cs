@@ -13,6 +13,8 @@ namespace AspCoreWebApp.Controllers
     public class DepartmanController : Controller
     {
         // GET
+        //private readonly IDepartmanGenericRepository _departmanGenericRepository;
+
         private readonly AspCoreContext _context;
 
         private readonly IDepartmanRepository _departmanRepository;
@@ -24,15 +26,16 @@ namespace AspCoreWebApp.Controllers
             _context = context;
             _departmanRepository = departmanRepository;
             _departmanService = departmanService;
+           
         }
         
         
         public IActionResult Index()
         {
-            var degerler = _context.Departmans.Where(x=>x.Durum==true).ToList();
-            /*var degerler = _departmanService.GetAllDepartmans().ToList();*/
-            var degerler2 = _departmanRepository.GetAllDepartmans();
-            var degerler3 = _departmanService.GetAllDepartmans();
+            //var degerler = _context.Departmans.Where(x=>x.Durum==true).ToList();
+            ///*var degerler = _departmanService.GetAllDepartmans().ToList();*/
+            //var degerler2 = _departmanRepository.GetAllDepartmans();
+            var degerler = _context.Departmans.Where(x=>x.Status==true).ToList();
             return View(degerler);
         }
         
@@ -49,7 +52,7 @@ namespace AspCoreWebApp.Controllers
         {
 
             //TODO Durum True yapılacak listeye gelmesi için
-            d.Durum = true;
+            d.Status = true;
             
             _context.Departmans.Add(d);
             _context.SaveChanges();
@@ -60,7 +63,7 @@ namespace AspCoreWebApp.Controllers
         public ActionResult DepartmanSil(int id)
         {
             var dep = _context.Departmans.Find(id);
-            dep.Durum = false;
+            dep.Status = false;
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -74,7 +77,7 @@ namespace AspCoreWebApp.Controllers
 
         public ActionResult DepartmanGuncelle(Departman p)
         {
-            var dept = _context.Departmans.Find(p.DepartmanID);
+            var dept = _context.Departmans.Find(p.Id);
             dept.DepartmanAd = p.DepartmanAd;
             _context.SaveChanges();
             return RedirectToAction("Index");
@@ -84,7 +87,7 @@ namespace AspCoreWebApp.Controllers
         {
             var degerler = _context.Personels.Where(x => x.Departmanid == id).ToList();
 
-            var dpt = _context.Departmans.Where(x => x.DepartmanID == id).Select(y => y.DepartmanAd).FirstOrDefault();
+            var dpt = _context.Departmans.Where(x => x.Id == id).Select(y => y.DepartmanAd).FirstOrDefault();
             ViewBag.DepartmanAdi = dpt;
 
             return View(degerler);
