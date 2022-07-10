@@ -53,6 +53,7 @@ namespace AspCoreWebApp.Controllers
 
             //TODO Durum True yapılacak listeye gelmesi için
             d.Status = true;
+            d.CreateDateTime = System.DateTime.Now;
             
             _context.Departmans.Add(d);
             _context.SaveChanges();
